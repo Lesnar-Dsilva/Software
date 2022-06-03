@@ -1,5 +1,5 @@
 import requests;
-username,password = "o_6ifbgsr1v5","GamingGeek1";
+username,password = "","";#username, password
 #access token
 a = requests.post("https://api-ssl.bitly.com/oauth/access_token",auth=(username,password));
 if a.status_code == 200:
